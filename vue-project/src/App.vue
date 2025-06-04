@@ -1,10 +1,11 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HeaderComponent msg="Welcome to Your Vue.js App"/>
+  <div>
+  <HeaderComponent title="Hello title"/>
+  </div>
 </template>
 
 <script>
-import HeaderComponent from './components/HelloWorld.vue'
+import HeaderComponent from './components/Header.vue'
 
 export default {
   name: 'App',
