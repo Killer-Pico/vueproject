@@ -3,7 +3,7 @@
   <HeaderComponent title="Hello title"/>
   </div>
   <MessageComponent title="Привіт, Vue!" message="Я вмію створювати компоненти із пропсами!"/>
-
+   <MessageComponent title="Що далі?" message="Тепер я можу передавати різні дані в компоненти!"/>
 </template>
 
 <script>
