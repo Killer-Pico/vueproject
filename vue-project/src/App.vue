@@ -10,7 +10,7 @@
 <script>
 import BusinessCard from './components/BusinessCard.vue';
 import HeaderComponent from './components/Header.vue';
-import MessageComponent from './components/MessageComponent.vue'
+import MessageComponent from './components/MessageComponent.vue';
 
 export default {
   name: 'App',
