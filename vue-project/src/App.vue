@@ -4,7 +4,7 @@
   </div>
   <MessageComponent title="Привіт, Vue!" message="Я вмію створювати компоненти із пропсами!"/>
   <MessageComponent title="Що далі?" message="Тепер я можу передавати різні дані в компоненти!"/>
-  <BusinessCardComponent phone="+3802314576" email="example@gmail.com"/>
+  <BusinessCard phone="+3802314576" email="example@gmail.com"/>
 </template>
 
 <script>
@@ -17,7 +17,7 @@ export default {
   components: {
     HeaderComponent,
     MessageComponent,
-    BusinessCardComponent   
+    BusinessCard  
   }
 }
 </script>
